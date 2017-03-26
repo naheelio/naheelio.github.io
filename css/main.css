@@ -1,0 +1,107 @@
+body{
+    background-color: black;
+    animation-name: lightning;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 2.5s;
+}
+
+@keyframes lightning {
+    0%   {background-color: black}
+    100% {background-color: white}
+}
+
+.info{
+    font-size: 10px;
+    color:black;
+    letter-spacing: 1.5px;
+    font-family: "Arial";
+    display: block;
+    z-index: -1;
+    animation-name: vanish;
+    animation-duration: .1s;
+    animation-fill-mode: forwards;
+    animation-delay: .5s;
+}
+
+@keyframes vanish {
+    0%   {color:black}
+    100% {color: white}
+}
+
+
+.topInfo{
+    position: fixed;
+    top: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.botInfo{
+    position: fixed;
+    bottom: 50px;
+    text-align: center;
+    width: 100%;
+}
+    
+
+.legend{
+    font-family: "Arial";
+    letter-spacing: 1.8px;
+    color: black;
+    font-size: 60px;
+}
+
+.blur{
+   color: transparent;
+   text-shadow: 0 0 35px rgba(0,0,0,1);
+}
+
+.whitespace{
+    height: 30vh;
+}
+
+.apple{
+    text-align: left;
+    font-family: "Arial";
+    letter-spacing: 1.8px;
+    color: blue;
+    font-size: 40px;
+    position: relative;
+    opacity: 0;
+    animation-name: subscribe;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 105s;
+    text-decoration: none;
+}
+
+@keyframes subscribe {
+    0%   {opacity: 0; bottom: 0px}
+    100% {opacity: 1; bottom: 30px}
+}
+
+.typed-cursor{
+    opacity: 1;
+    color: black;
+    font-size: 60px;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 1s infinite;
+}
+@keyframes blink{
+    0% { opacity:0; }
+    49% { opacity:0; }
+    50% { opacity:1; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
