@@ -1,0 +1,612 @@
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  color: #F37933;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+body{
+/*	font-size: 80px;*/
+	color: #212121;
+}
+
+a{
+	text-decoration: none;
+	color: #212121;
+}
+
+/* ----------------------
+
+METHOD PAGE
+
+------------------------- */
+
+/* --- Selector --- */
+
+.topSection{
+	width: 80%;
+	max-width: 960px;
+	height: 100px;
+
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 20px;
+
+	position: relative;
+
+/*	background-color: blue;*/
+}
+
+.topMenu{
+	text-align: right;
+	
+	position: absolute;
+	right: 0px;
+
+	/*	background-color: green;*/
+}
+
+.topTitle{
+	position: absolute;
+	left: 0px;
+
+	/*background-color: red;*/
+}
+
+.topTitleSpan{
+	font-family: 'Work Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 0.3px;
+}
+
+.topMenuSpan{
+	font-family: 'Work Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 0.3px;
+
+	margin-left: 30px;
+
+	/* giving extra room on top and bottom for hover */
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.topMenuSpan:hover{
+	color: #333333;
+}
+
+.topMenuLastSpan{
+	
+}
+
+/* --- Selector --- */
+
+.selectionSection{
+	width: 80%;
+	max-width: 960px;
+	margin: auto;
+	margin-top: 100px;
+
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+	position: relative;
+
+	text-align: center;
+
+/*	background-color: purple;*/
+}
+
+.selectionSpan{
+	font-size: 38px;
+	font-family: 'Avenir Next LT Pro', sans-serif;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+
+}
+
+.dropDownSpan{
+	font-size: 40px;
+	background-color: #FFF6E6;
+	
+	padding-right: 10px;
+	padding-left: 18px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+
+	margin-right: 15px;
+	margin-left: 5px;
+}
+
+/* --- Content Section --- */
+
+.contentSection{
+	width: 80%;
+	max-width: 960px;
+	margin: auto;
+	margin-top: 80px;
+	margin-bottom: 75px;
+	position: relative;
+
+/*	background-color: pink;*/
+
+}
+
+.contentMethodHeader{
+	padding-top: 60px;
+	padding-bottom: 20px;
+
+/*	background-color: orange;*/
+
+	font-size: 14px;
+	font-family: 'Avenir Next LT Pro', sans-serif;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+
+}
+
+.contentMethodContainer{
+	display: inline-block;
+	width: 160px;
+
+	margin-right: 28.5px;
+	margin-top: 10px;
+
+/*	background-color: grey;*/
+
+	font-size: 14px;
+	font-family: 'Avenir Next LT Pro', sans-serif;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+	line-height: 30px;
+
+	text-align: center;
+
+}
+
+.contentMethodIcon{
+	display: inline-block;
+	width: 160px;
+	height: 160px;
+
+/*	background-color: black;*/
+
+}
+
+/* ----------------------
+
+SPECIFIC METHOD PAGE
+
+------------------------- */
+
+.artSection{
+	position: absolute;
+	width: 100%;
+	height: 400px;
+
+	margin: 0px;
+	padding: 0px;
+
+	top: 0px;
+	left: 0px;
+
+	background-color: #FFF6E6;
+}
+
+.headerSection{
+	width: 80%;
+	max-width: 960px;
+	margin: auto;
+	margin-top: -20px;
+	margin-bottom: 75px;
+	position: relative;
+
+
+/*	background-color: pink;*/
+
+}
+
+.headerImage{
+	display: block;
+	width: 160px;
+	height: 160px;
+
+	margin: auto;
+
+	background-color: yellow;
+}
+
+.headerTitle{
+	margin-top: 30px;
+	margin-bottom: 20px;
+
+	font-size: 22px;
+	font-family: 'Avenir Next LT Pro', sans-serif;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	line-height: 40px;
+	text-align: center;
+
+	color: #F37933;
+}
+
+.methodContentContainer{
+	width: 60%;
+	max-width: 720px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 75px;
+	position: relative;
+
+	padding: 20px 0;
+
+/*	background-color: LightBlue;*/
+
+}
+
+.methodContentIntroSpan{
+	font-size: 20px;
+	font-family: 'Avenir Next LT Pro', sans-serif;
+	font-weight: 400;
+	letter-spacing: 0.3px;
+	line-height: 35px;
+}
+
+.methodContentLinksContainer{
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+	padding: 20px 0;
+	
+/*	background-color: orange;*/
+
+	text-align: center;
+}
+
+.methodContentLinkButton{
+	width: 200px;
+	display: inline-block;
+
+	margin: 60px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+	padding: 20px 0;
+
+	font-size: 14px;
+	font-family: 'Avenir Next LT Pro', sans-serif;
+	font-weight: 600;
+	letter-spacing: 0.3px;
+
+	background-color: #FFF6E6;
+}
+
+.methodContentHeader{
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Avenir Next LT Pro', sans-serif;
+	font-weight: 600;
+	letter-spacing: 0.3px;
+
+/*	background-color: blue;*/
+}
+
+.methodContentStepContainer{
+	width: 80%;
+	max-width: 576px;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	position: relative;
+
+	padding: 20px 0;
+
+	text-align: center;
+
+/*	background-color: pink;*/
+}
+
+
+.methodContentStepNumber{;
+	width: 5%;
+	height: 20px;
+	display: inline-block;
+
+	font-size: 24px;
+	font-family: 'Avenir Next LT Pro', sans-serif;
+	font-weight: 600;
+	letter-spacing: 0.3px;
+
+	padding: 0 10px;
+	vertical-align: top;
+
+/*	background-color: green;*/
+}
+
+.methodContentStepInfo{
+	width: 80%;
+	display: inline-block;
+
+	font-size: 14px;
+	font-family: 'Avenir Next LT Pro', sans-serif;
+	font-weight: 400;
+	letter-spacing: 0.3px;
+	text-align: left;
+
+/*	background-color: yellow;*/
+}
+
+.methodContentStepTip{
+	width: 90%;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+	font-size: 18px;
+	font-family: 'Avenir Next LT Pro', sans-serif;
+	font-weight: 400;
+	letter-spacing: 0.3px;
+	text-align: left;
+
+/*	background-color: white;*/
+}
+
+.relatedMethods{
+	margin: auto;
+	padding: 40px 0;
+	
+	text-align: center;
+	vertical-align: top;
+
+/*	background-color: green;*/
+}
+
+
+.relatedMethodsSeeAll{
+	display: inline-block;
+	width: 160px;
+
+	padding: 30px 0;
+
+	margin-top: 60px;
+/*	margin-right: 10px;*/
+/*	margin-left: 10px;*/
+
+	font-size: 14px;
+	font-family: 'Avenir Next LT Pro', sans-serif;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+	line-height: 30px;
+
+/*	background-color: LightGreen;*/
+
+	vertical-align: top;
+}
+
+/* ----------------------
+
+CASE STUDY PAGE
+
+------------------------- */
+
+.csListContainer{
+	width: 75%;
+	height: 200px;
+	max-width: 900px;
+	margin: auto;
+	position: relative;
+	
+	margin-top: 50px;
+	margin-bottom: 160px;
+
+/*	background-color: pink;*/
+}
+
+.csListThumb{
+	width: 400px;
+	height: 200px;
+
+	background-color: blue;
+
+	position: absolute;
+	right: 0px;
+}
+
+.csListInfo{
+	width: 400px;
+	height: 200px;
+
+	position: absolute;
+	left: 0px;
+
+/*	background-color: LightBlue;*/
+}
+
+.csTile{
+	top: 10px;
+	position: absolute;
+}
+
+.csTitleSpanTitle{
+	font-size: 22px;
+	font-family: 'Avenir Next LT Pro', sans-serif;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	line-height: 30px;
+}
+
+.csTitleSpanDesc{
+	font-size: 16px;
+	font-family: 'Avenir Next LT Pro', sans-serif;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+	line-height: 20px;
+
+	padding-top: 10px;
+}
+
+
+.csSeeMore{
+	font-size: 16px;
+	font-family: 'Avenir Next LT Pro', sans-serif;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+
+	bottom: 0px;
+	position: absolute;
+
+	/*	background-color: yellow;*/
+}
+
+#positionCaseTitle{
+	margin-top: 150px;
+}
+
+/* ----------------------
+
+SPECIFIC CASE STUDY PAGE
+
+------------------------- */
+
+.caseContentContainer{
+	width: 60%;
+	max-width: 720px;
+	margin: auto;
+	margin-top: 160px;
+	margin-bottom: 30px;
+	position: relative;
+
+	padding: 10px 0;
+
+/*	background-color: LightBlue;*/
+
+}
+
+.caseHeaderSpan{
+	font-size: 16px;
+	font-family: 'Avenir Next LT Pro', sans-serif;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+
+}
+
+.caseWritingSpan{
+	font-size: 20px;
+	font-family: 'Avenir Next LT Pro', sans-serif;
+	font-weight: 400;
+	letter-spacing: 0.3px;
+	line-height: 35px;
+}
+
+.caseImage{
+	width: 90%;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: -80px;
+
+	background-color: gray;
+}
+
+
+
+
+
+/* --- OLD STUFF
+
+.menuText{
+	
+	font-family: 'Ramaraja', serif;
+	font-size: 30px;
+}
+
+.bodyText{
+	
+	font-family: 'Raleway', sans-serif;
+}
+
+*/
+
+
+
+
+
+
+/* ---- FONT STUFFFF
+
+.normal{
+font-family: 'Circular Std';
+font-weight: normal;
+}
+
+
+.medium{
+font-family: 'Circular Std';
+font-weight: 500;
+}
+
+
+.bold{
+font-family: 'Circular Std';
+font-weight: bold;
+
+}
+
+
+.black{
+font-family: 'Circular Std';
+font-weight: 900;
+
+}
+
+.normalalt{
+	font-family: 'Circular Std';
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+.mediumalt{
+	font-family: 'Circular Std';
+	font-weight: 500;
+	font-style: normal;
+}
+
+
+.boldalt{
+	font-family: 'Circular Std';
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+.blackalt{
+	font-family: 'Circular Std';
+	font-weight: 900;
+	font-style: normal;
+
+}
+
+*/
+
+
