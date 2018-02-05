@@ -8,10 +8,7 @@ var body = document.body;
 // -------------------  VARIABLES -------------------  //
 
 // global variables go here
-var dx = getRandomInt(0,400);
-var dy = getRandomInt(0,400);
 
-var x=0 , y=0;
 
 // -------------------  HELPER FUNCTIONS -------------------  //
 
@@ -29,18 +26,9 @@ function getRandomColor(rMin, rMax, gMax, gMin, bMax, bMin) {
 
 // -------------------  FUNCTIONS -------------------  //
 
-function moveToNew(){
-	//console.log(dx, dy);
-	x += (dx - x) * .1;
-	y += (dy - y) * .1;
-
-	movingBlock.style.left = x + "px";
+function movement(){
+	movingBlock.style.left = event.beta + "px";
 	movingBlock.style.top = event.alpha + "px";
-}
-
-function randomizeLocation(){
-	dx = getRandomInt(0,400);
-	dy = getRandomInt(0,400);
 }
 
 function handleOrientation(event) {
@@ -59,13 +47,6 @@ function handleOrientation(event) {
 
 // -------------------  EVENT HANDLERS -------------------  //
 
-// click movingBlock
-movingBlock.onclick = function() {blockClick()};
-
-function blockClick(){
-	randomizeLocation()
-}
-
 // orientation
 window.addEventListener("deviceorientation", handleOrientation, true);
 
@@ -76,7 +57,7 @@ function draw(){
 	requestAnimationFrame(draw);
 
 	// calls
-	moveToNew();
+	movement();
 
 	// debug
 
