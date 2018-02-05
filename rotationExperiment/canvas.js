@@ -35,7 +35,7 @@ function moveToNew(){
 	y += (dy - y) * .1;
 
 	movingBlock.style.left = x + "px";
-	movingBlock.style.top = y + "px";
+	movingBlock.style.top = event.alpha + "px";
 }
 
 function randomizeLocation(){
