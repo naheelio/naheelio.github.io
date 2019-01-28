@@ -75,8 +75,8 @@ canvas{
 	padding-right: 60px;
 
 	font-family: 'Helvetica Neue';
-	font-size: 30px;
-	line-height: 40px;
+	font-size: 24px;
+	line-height: 34px;
 
   	/*outline-style: dashed;
   	outline-color: red;*/
@@ -122,8 +122,8 @@ canvas{
 	padding-right: 42px;
 
 	font-family: 'Helvetica Neue';
-	font-size: 38px;
-	line-height: 50px;
+	font-size: 30px;
+	line-height: 44px;
 
 	background-color: #F0F0F0;
 	/*background-color: green;
@@ -188,8 +188,8 @@ canvas{
 	text-align: center;
 
 	font-family: 'Helvetica Neue';
-	font-size: 30px;
-	line-height: 40px;
+	font-size: 24px;
+	line-height: 34px;
 
 	/*background-color: red;
 
