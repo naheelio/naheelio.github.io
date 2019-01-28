@@ -13,6 +13,15 @@ body{
 	font-family: 'Helvetica Neue';
 }
 
+a{
+	color:black;
+	text-decoration: none;
+}
+
+#ig:hover{
+	cursor:url(http://www.naheeljawaid.com/amansSite/cursor-ig.gif), auto;
+}
+
 canvas{
 	/*border: 1px solid black;*/
 	 background: white;
@@ -122,25 +131,25 @@ canvas{
 }
 
 #apple{
-	background-color: orange;
+	background-color: black;
 	background-image: url("img/photo-apple.png");
 	background-size: cover;
 }
 
 #nike{
-	background-color: orange;
+	background-color: black;
 	background-image: url("img/photo-nike.png");
 	background-size: cover;
 }
 
 #blueapron{
-	background-color: orange;
+	background-color: black;
 	background-image: url("img/photo-blueapron.png");
 	background-size: cover;
 }
 
 #lg{
-	background-color: orange;
+	background-color: black;
 	background-image: url("img/photo-lg.png");
 	background-size: cover;
 }
