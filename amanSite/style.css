@@ -9,10 +9,10 @@
 body{
 	margin: 0;
 	padding: 0;
-
 	color: black;
 	font-family: 'Helvetica Neue';
 }
+
 canvas{
 	/*border: 1px solid black;*/
 	 background: white;
@@ -22,18 +22,171 @@ canvas{
 	/* container for most of the sections */
 }
 
+
+/* ------  INTRO SECTION ------ */
+
 .intro{
 	/* introduction part */
-	height: 80vh;
+	display: block;
+
+	height: 85vh;
 
 	text-align: left;
 
-	max-width: 925px;
+	max-width: 1400px;
     margin: 0 auto;
-    padding: 0 50px;
+    margin-top: 48px;
+    padding: 0 54px;
 
-    background-color: black;
-    color: white;
-
+    /* background-color: blue; */
 
 }
+
+.intro:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.introCol{
+	width: 50%;
+	float: left;
+	padding-right: 60px;
+
+	font-family: 'Helvetica Neue';
+	font-size: 30px;
+	line-height: 40px;
+
+  	/*outline-style: dashed;
+  	outline-color: red;*/
+}
+
+.introCol:last-of-type{
+	padding-right: 0px;
+}
+
+
+/* ------  CARD SECTION ------ */
+
+.card{
+	/* introduction part */
+	display: block;
+
+	height: 760px;
+
+	text-align: left;
+
+	/*background-color: yellow;*/
+
+	max-width: 1400px;
+    margin: 0 auto;
+    margin-bottom: 66px;
+    padding: 0 54px;
+
+}
+
+.card:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.cardCol{
+	height: 760px;
+	width: 50%;
+
+	float: left;
+	padding-top: 32px;
+	padding-left: 42px;
+	padding-right: 42px;
+
+	font-family: 'Helvetica Neue';
+	font-size: 38px;
+	line-height: 50px;
+
+	background-color: #F0F0F0;
+	/*background-color: green;
+
+  	outline-style: dashed;
+  	outline-color: purple;*/
+}
+
+.cardCol:last-of-type{
+	padding-right: 0px;
+}
+
+#apple{
+	background-color: orange;
+	background-image: url("img/photo-apple.png");
+	background-size: cover;
+}
+
+#nike{
+	background-color: orange;
+	background-image: url("img/photo-nike.png");
+	background-size: cover;
+}
+
+#blueapron{
+	background-color: orange;
+	background-image: url("img/photo-blueapron.png");
+	background-size: cover;
+}
+
+#lg{
+	background-color: orange;
+	background-image: url("img/photo-lg.png");
+	background-size: cover;
+}
+
+/* ------  FOOTER SECTION ------ */
+
+.footer{
+	/* introduction part */
+	display: block;
+
+	text-align: left;
+
+	max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 90px;
+    margin-bottom: 120px;
+    padding: 0 54px;
+
+    /*background-color: brown;*/
+
+}
+
+.footer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footerCol{
+	text-align: center;
+
+	font-family: 'Helvetica Neue';
+	font-size: 30px;
+	line-height: 40px;
+
+	/*background-color: red;
+
+  	outline-style: dashed;
+  	outline-color: yellow;*/
+}
+
+.footerCol span {
+  display: inline-block;
+  width: 132px;
+}
+
+
+
+
