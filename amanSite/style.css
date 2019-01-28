@@ -18,9 +18,15 @@ a{
 	text-decoration: none;
 }
 
-#ig:hover{
-	cursor:url(http://www.naheeljawaid.com/amansSite/cursor-ig.png), auto;
+/*
+#email:hover{
+	cursor:url(http://www.naheeljawaid.com/amanSite/img/cursor-mail.png), auto;
 }
+
+#ig:hover{
+	cursor:url(http://www.naheeljawaid.com/amanSite/img/cursor-ig.png), auto;
+}
+*/
 
 canvas{
 	/*border: 1px solid black;*/
@@ -28,7 +34,7 @@ canvas{
 }
 
 .content{
-	/* container for most of the sections */
+	container for most of the sections */
 }
 
 
