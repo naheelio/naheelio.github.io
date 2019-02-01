@@ -13,23 +13,23 @@
 
 @font-face {
     font-family: 'Andale Mono';
-    src: url('AndaleMono.woff2') format('woff2'),
-        url('AndaleMono.woff') format('woff');
+    src: url('font/AndaleMono.woff2') format('woff2'),
+        url('font/AndaleMono.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'GT America';
-    src: url('GTAmerica-Regular.woff2') format('woff2'),
-        url('GTAmerica-Regular.woff') format('woff');
+    src: url('font/GTAmerica-Regular.woff2') format('woff2'),
+        url('font/GTAmerica-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Mabry Pro';
-    src: url('MabryPro-Regular.woff2') format('woff2'),
-        url('MabryPro-Regular.woff') format('woff');
+    src: url('font/MabryPro-Regular.woff2') format('woff2'),
+        url('font/MabryPro-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
