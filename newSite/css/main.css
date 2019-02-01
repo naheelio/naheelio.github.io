@@ -1,0 +1,205 @@
+@font-face {
+    font-family: 'GT America';
+    src: url('GTAmerica-Regular.woff2') format('woff2'),
+        url('GTAmerica-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mabry Pro';
+    src: url('MabryPro-Regular.woff2') format('woff2'),
+        url('MabryPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('font/HelveticaNeue.woff2') format('woff2'),
+        url('font/HelveticaNeue.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: 'cursive'; /* As a test */
+}
+
+@keyframes workOn {
+    0%   {background-color: black}
+    100% {background-color: white}
+}
+
+.homeContainer{
+    /* background-color: green; */
+    margin: 36px 48px; /* Format: y, x; */
+    padding: 0px; 
+
+}
+
+.animateUpTop{
+    animation-name: moveUpTop;
+    animation-duration: .8s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    animation-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22);  
+}
+
+@keyframes moveUpTop{
+    0%   {margin: 36px 48px}
+    100% {margin: -900px 48px}
+}
+
+.aboutMe{
+    /* background-color: blue; */
+    margin: 0px;
+    padding: 0px;
+    max-width:932px;
+
+    font-family: 'Mabry Pro';
+    font-size: 3em; /* SKETCH */
+    line-height: 1.22; /* SKETCH */
+    font-weight: normal;
+    font-style: normal;
+}
+
+.projectFooter{
+    /* background-color: red; */
+    position:fixed;
+    bottom:36px;
+    max-width:960px;
+
+    font-family: 'GT America';
+    font-size: 1.5em; /* SKETCH */
+    line-height: 1.22; /* SKETCH */
+}
+
+.animateUpBottom{
+    animation-name: moveUpBottom;
+    animation-duration: .8s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    animation-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22);  
+}
+
+@keyframes moveUpBottom{
+    0%   {bottom: 36px}
+    100% {bottom: 1100px}
+}
+
+.smiley{
+    font-size: 1em;
+    text-align: center;
+
+    display: inline-block;
+    width: 40px;
+}
+
+.subtitle{
+    font-family: 'Mabry Pro';
+    font-size: .65em; /* SKETCH */
+    line-height: 2; /* SKETCH */
+    letter-spacing: 0.015em;
+}
+
+.pillButton{
+    padding: 30px 56px; /* Around the text */
+    margin-top: 36px; /* Around the button */
+    margin-left: -30px;
+    margin-right: 56px;
+    border-radius: 1600px;
+
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+
+    color: black; /* THIS IS THE TEXT COLOR */
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Helvetica Neue';
+    font-size: 4em;
+
+    display: inline-block;
+
+    cursor: pointer; 
+}
+
+.pillButton:hover{
+    background-color: #000000;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+
+    color: white; /* THIS IS THE TEXT COLOR */
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Helvetica Neue';
+    font-size: 4em;
+
+    display: inline-block;
+
+    cursor: pointer;
+}
+
+.projectMenu{
+    background-color: green;
+    margin: 1550px 48px; /* Format: y, x; */
+    padding: 0px; 
+    position: fixed;
+}
+
+/* .pill-1{
+    animation-name: pillPop, lastMinute;
+    transform-origin: -160px 0px;
+    transform: scale(0);
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    animation-delay: .5s;
+    animation-timing-function: cubic-bezier(1, 0, 0, 1);
+}
+
+.pill-2{
+    animation-name: pillPop, lastMinute;
+    transform-origin: -160px 0px;
+    transform: scale(0);
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    animation-delay: .7s;
+    animation-timing-function: cubic-bezier(1, 0, 0, 1);
+}
+
+.pill-3{
+    animation-name: pillPop, lastMinute;
+    transform-origin: -160px 0px;
+    transform: scale(0);
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    animation-delay: .9s;
+    animation-timing-function: cubic-bezier(1, 0, 0, 1);
+}
+
+@keyframes pillPop {
+    0%   {transform: scale(0)}
+    100% {transform: scale(1)}
+}
+
+@keyframes lastMinute {
+    0% {opacity: 0}
+    60% {opacity: 0}
+    61% {opacity: 1}
+    100% {opacity: 1;}
+} */
+
+.test{
+    margin: auto;
+    margin-top: 36px;
+    padding: 0px;
+    max-width:1300px;
+    position: fixed; 
+}
+
