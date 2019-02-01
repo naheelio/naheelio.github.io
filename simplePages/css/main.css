@@ -28,7 +28,7 @@
 
 @font-face {
     font-family: 'Mabry Pro';
-    src: url('.../font/MabryPro-Regular.woff2') format('woff2'),
+    src: url('../font/MabryPro-Regular.woff2') format('woff2'),
         url('../font/MabryPro-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
