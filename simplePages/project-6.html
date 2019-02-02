@@ -8,48 +8,44 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="js/main.js"></script>
 
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body bgcolor="black">
 
 
 <div class="projectContainer">
-	<div class="homeButton">⌂</div>
+	<a href="index.html">
+		<div class="homeButton"">
+			<img src="img/home-white.png" height="34" width="29"
+			onmouseover="this.src='img/home-white-hover.png'"
+			onmouseout="this.src='img/home-white.png'"></img>
+		</div>
+	</a>
 </div>
 
 <div class="projectContainer">
-	<div class="projectTitle">
+	<div class="projectTitle" data-aos="fade-up" data-aos-duration="20">
 		Google Artist in Residence NYC Lead
 	</div>
 </div>
 
 <div class="projectContainer">
-	<video src="vid/testVid.mov" type="video/mp4" autoplay loop muted>
+	<video src="vid/testVid.mov" type="video/mp4" autoplay loop muted data-aos="fade-up" data-aos-delay="100" data-aos-duration="250">
 	</video>
 </div>
 
 <div class="projectContainer">
 	<div class="projectContent">
-		It’s a life mission of mine to shift music culture. I’ve gotten a chance to 10x my impact by collaborating with Youtube Music and leading design for a music startup being incubated at Google.
+		Working on empowering artists to collab with Google in exploring innovative new forms of expression.
 		<br>
 		<br>
-		Areas I’ve worked on include:
-		<br>
-		<br>	
-		❶ Lo-fi content creation for artists
-		<br>
-		❷ Emerging trends relating to curators and playlist culture
-		<br>
-		❸ Using AI to augment the artist workflow
-		<br>
-		❹ New media formats
-		<br>
-		<br>
-		In the process, I’ve run qualitative and quantitative research with both listeners and artists, iterated on design with high-level stakeholders, facilitated cross-functional sprints, and worked with engineers to build functional prototypes of new concepts in music.
+		This project is still in progress. Want to come to our launch event on Feb 22? <a href="mailto:naheelj.92@gmail.com?subject=RSVP 4 NYC VR Mural Launch Event">Shoot me an e-mail</a> and I'll try to get you in.
 	</div>
 </div>
 
-<div class="projectContainer">
+<div class="projectContainer" data-aos="fade-up">
 	<div class="bottomPills">
 		<a href="work.html">
 			<div class="pillButtonBottom">
@@ -71,7 +67,10 @@
 
 
 
-	
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+</script>
 
 
 

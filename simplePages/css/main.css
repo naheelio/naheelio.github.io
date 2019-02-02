@@ -148,6 +148,17 @@ body{
     -webkit-font-smoothing: antialiased !important;
 }
 
+.projectFooter a{
+    text-decoration: none;
+    color:black;
+}
+
+.projectFooter a:hover{
+    text-decoration: underline;
+}
+
+
+
 
 .smiley{
     font-size: 1em;
@@ -187,7 +198,7 @@ body{
     /* background-color: blue; */
     margin: auto;
     padding: 0px;
-    padding-left: 48px;
+    padding-left: 52px;
     padding-right: 48px;
     max-width: 800px;
     float: left;
@@ -198,6 +209,11 @@ body{
     font-family: 'Andale Mono';
     font-weight: normal;
     font-style: normal;
+
+}
+
+.homeButton:hover{
+    cursor: pointer;
 }
 
 .homeButton:after {
@@ -216,6 +232,7 @@ body{
     float: left;
 
     margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .singleProject{
@@ -223,8 +240,16 @@ body{
     margin-bottom: 34px;
 }
 
-.singleProject a{
+.menuProjects a{
     text-decoration: none;
+}
+
+.singleProject:hover .menuProjectsTitle{
+    text-decoration: underline;
+}
+
+.singleProject:hover .menuProjectsDescription{
+    color:black;
 }
 
 .menuProjectsTitle{
@@ -339,10 +364,15 @@ video{
 
 .bottomPills{
     margin: auto;
+    text-align: center;
     padding-left: 48px;
     padding-right: 48px;
     padding-top: 128px;
     padding-bottom: 200px;
+}
+
+.bottomPills a{
+    text-decoration: none;
 }
 
 .pillButtonBottom{

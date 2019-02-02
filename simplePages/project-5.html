@@ -8,23 +8,31 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="js/main.js"></script>
 
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body bgcolor="black">
 
 
 <div class="projectContainer">
-	<div class="homeButton">⌂</div>
+	<a href="index.html">
+		<div class="homeButton"">
+			<img src="img/home-white.png" height="34" width="29"
+			onmouseover="this.src='img/home-white-hover.png'"
+			onmouseout="this.src='img/home-white.png'"></img>
+		</div>
+	</a>
 </div>
 
 <div class="projectContainer">
-	<div class="projectTitle">
+	<div class="projectTitle" data-aos="fade-up" data-aos-duration="20">
 		Google Arts & Culture AR Prototyping
 	</div>
 </div>
 
 <div class="projectContainer">
-	<video src="vid/testVid.mov" type="video/mp4" autoplay loop muted>
+	<video src="vid/testVid.mov" type="video/mp4" autoplay loop muted data-aos="fade-up" data-aos-delay="100" data-aos-duration="250">
 	</video>
 </div>
 
@@ -46,7 +54,7 @@
 	</div>
 </div>
 
-<div class="projectContainer">
+<div class="projectContainer" data-aos="fade-up">
 	<div class="bottomPills">
 		<a href="work.html">
 			<div class="pillButtonBottom">
@@ -68,7 +76,10 @@
 
 
 
-	
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+</script>
 
 
 
