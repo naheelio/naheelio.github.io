@@ -223,6 +223,9 @@ body{
     margin-bottom: 34px;
 }
 
+.singleProject a{
+    text-decoration: none;
+}
 
 .menuProjectsTitle{
     font-family: 'Mabry Pro';
