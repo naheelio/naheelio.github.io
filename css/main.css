@@ -42,6 +42,31 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Untitled Sans';
+    src: url('../font/UntitledSans-Regular.woff2') format('woff2'),
+        url('../font/UntitledSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Untitled Serif';
+    src: url('../font/UntitledSerif-Medium.woff2') format('woff2'),
+        url('../font/UntitledSerif-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Migra';
+    src: url('../font/MigraItalic-ExtralightItalic.woff2') format('woff2'),
+        url('../font/MigraItalic-ExtralightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+}
+
+
 /*          SECTION ----- HTML Elements          */
 
 body{
@@ -89,6 +114,7 @@ body{
     font-weight: normal;
     font-style: normal;
 }
+
 
 .buttons{
     /* background-color: blue; */
@@ -294,6 +320,24 @@ body{
   clear: both;
 }
 
+
+.contactMe{
+    font-family: 'GT America';
+    font-size: 10px; /* SKETCH */
+    line-height: 32px;
+    font-weight: normal;
+    font-style: normal;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    color: #8B8B8B;
+    background-color: red;
+
+    text-align: right;
+    bottom: 0;
+    right:0;
+}
+
+
 .projectTitle{
     /* background-color: blue; */
     margin: auto;
@@ -331,10 +375,6 @@ video{
     50% { background: #1F1F1F; }
     99% { background: #3C3C3C; }
 }
-
-
-
-
 
 .projectContent{
     margin: auto;
@@ -409,8 +449,235 @@ video{
 }
 
 
+/*          SECTION ----- Custom: New         */
+
+.bkg-lightBeige{
+    background-color: #FFFFF8;
+}
+
+.newHeaderContainer{
+    /* background-color: green; */
+    margin: auto; /* Format: y, x; */
+    padding: 0px;
+    padding-top: 40px;
+    max-width:1230px;
+    /* background-color: brown; */
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.newHeaderContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.newCaption{
+    /* background-color: blue; */
+    margin: auto;
+    padding: 0px;
+    max-width:772px;
+    float: left;
+
+    font-family: 'Untitled Serif';
+    font-size: 32px; /* SKETCH */
+    font-weight: 500;
+    letter-spacing: .32px;
+    font-weight: normal;
+    font-style: normal;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+
+    color: #1A2318;
+}
 
 
+.newSubCaption{
+    /* background-color: blue; */
+    margin: auto;
+    margin-top: 20px;
+    padding: 0px;
+    max-width: 690px;
+    float: left;
+
+    font-family: 'Untitled Sans';
+    font-size: 20px; /* SKETCH */
+    letter-spacing: .12px;
+    line-height: 1.37; /* SKETCH */
+    font-weight: normal;
+    font-style: normal;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+
+    color: #182418;
+}
+
+.newHeroContainer{
+    /* background-color: green; */
+    margin: auto; /* Format: y, x; */
+    padding: 0px;
+    padding-top: 28px;
+    padding-bottom: 32px;
+    max-width:1230px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.newHeroContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.newVideoWrapper{
+    /* background-color: green; */
+    padding: 0px;
+    max-width:840px;
+    /* background-color: blue; */
+    color: white;
+    float: left;
+ /*   position: absolute; */
+}
+
+.newVideoWrapper video{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+    background: #D0C4BC;
+    -webkit-animation: videoLoad 4s infinite;
+    -moz-animation: videoLoad 4s infinite;
+    animation: videoLoad 4s infinite;
+
+    box-shadow: 0 0px 8px 0 rgba(208, 196, 188, 0.2), 0 0px 20px 0 rgba(208, 196, 188, 0.19);
+}
+
+.bkg-darkGrey{
+    background-color: #262525;
+}
+
+.newProjectsContainer{
+    margin: auto; /* Format: y, x; */
+    padding: 0px;
+    padding-top: 20px;
+    max-width:1230px;
+    /* background-color: brown; */
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.newProjectsHeading{
+    text-align: center;
+    /* background-color: grey; */
+    padding-top: 32px;
+    padding-bottom: -6px;
+
+    font-family: 'Untitled Sans';
+    font-size: 16px; /* SKETCH */
+    letter-spacing: 0.01px;
+    line-height: 1.625; /* SKETCH */
+    font-weight: normal;
+    font-style: normal;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+
+    color: #BEBEBE;
+}
+
+@media only screen and (max-width: 1325px) {
+  .newProjectsHeading {
+    text-align: left;
+  }
+}
+
+.twoPanel{
+    max-width:1230px;
+    text-align: top;
+}
+
+.twoPanel:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.panel1{
+    display: inline-block;
+    width:547px;
+    /* background-color: blue; */
+}
+
+.panelSpacer{
+    display: inline-block;
+    width:128px;
+    /* background-color: green; */
+}
+
+.panel2{
+    display: inline-block;
+    width:547px;
+    /* background-color: black; */
+}
+
+.newProjectsTitle{
+    font-family: 'Untitled Serif';
+    font-size: 26px; /* SKETCH */
+    font-weight: 500;
+    letter-spacing: .26px;
+    font-weight: normal;
+    font-style: normal;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+
+    color: white;
+
+    margin-top: 56px;
+}
+
+.newProjectsBody{
+    font-family: 'Untitled Sans';
+    font-size: 14px; /* SKETCH */
+    letter-spacing: 0.01px;
+    line-height: 1.8575; /* SKETCH */
+    font-weight: normal;
+    font-style: normal;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+
+    color: #BEBEBE;
+
+    margin-top: 10px;
+
+    width: 520px;
+}
+
+.newContact{
+    text-align: center;
+    /* background-color: grey; */
+
+    font-family: 'Migra';
+    font-size: 100px; /* SKETCH */
+    letter-spacing: 0.63px;
+    font-weight: 200;
+    font-style: italic;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+
+    color: #BEBEBE;
+
+    margin-top: 78px;
+    padding-bottom: 54px;
+}
+
+[aos="fade"] {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+[aos="fade"].aos-animate {
+  opacity: 1;
+}
 
 
 
