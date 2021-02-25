@@ -42,21 +42,7 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Untitled Sans';
-    src: url('../font/UntitledSans-Regular.woff2') format('woff2'),
-        url('../font/UntitledSans-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
-@font-face {
-    font-family: 'Untitled Serif';
-    src: url('../font/UntitledSerif-Medium.woff2') format('woff2'),
-        url('../font/UntitledSerif-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-}
 
 @font-face {
     font-family: 'Migra';
@@ -65,6 +51,34 @@
     font-weight: 200;
     font-style: italic;
 }
+
+@font-face {
+    font-family: 'Sharp Grotesk';
+    src: url('../font/SharpGrotesk-Bold20.woff2') format('woff2'),
+        url('../font/SharpGrotesk-Bold20.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: normal;
+}
+
+@font-face {
+    font-family: 'Untitled Serif';
+    src: url('../font/UntitledSerif-Medium.woff2') format('woff2'),
+        url('../font/UntitledSerif-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: normal;
+}
+
+@font-face {
+    font-family: 'Untitled Sans';
+    src: url('../font/UntitledSans-Regular.woff2') format('woff2'),
+        url('../font/UntitledSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 
 
 /*          SECTION ----- HTML Elements          */
@@ -668,5 +682,488 @@ video{
 
     margin-top: 78px;
     padding-bottom: 54px;
+}
+
+
+/*          SECTION ----- Snap        */
+
+.onepager-background{
+    background-color: #E8EBED;
+}
+
+.onepager-header{
+    margin: auto;
+    margin-top: 284px;
+
+    color: #0B113F;
+
+    font-family: 'Sharp Grotesk';
+    font-size: 120px; /* SKETCH */
+    letter-spacing: 0.75px;
+    font-weight: normal;
+    font-style: normal;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    text-align: center;
+}
+
+.onepager-subheader{
+    margin: auto;
+    margin-top: -2px;
+    margin-bottom: 277px;
+
+    color: #C6CAD2;
+
+    font-family: 'Untitled Sans';
+    font-size: 22px; /* SKETCH */
+    line-height: 1.18; /* SKETCH */
+    letter-spacing: 0.01px;
+    font-weight: normal;
+    font-style: normal;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    text-align: center;
+}
+
+
+.onepager-slideNumber{
+    margin: auto;
+    margin-top: 90px;
+
+    color: #C6CAD2;
+
+    font-family: 'Untitled Sans';
+    font-size: 18px; /* SKETCH */
+    line-height: 1.44; /* SKETCH */
+    letter-spacing: 0.01px;
+    font-weight: normal;
+    font-style: normal;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    text-align: center;
+}
+
+.onepager-slidePadding{
+    margin: auto;
+    margin-top: 26px;
+
+    padding-left: 40px;
+    padding-right: 40px;
+    max-width: 1200px;
+}
+
+.onepager-slide{    
+    height: 722px;
+    max-width: 1200px;
+    background-color: white;
+    box-shadow: 0px 2px 9px 0px rgba(11, 36, 53, 0.1);
+}
+
+.onepager-slide-title{    
+    margin: auto;
+    padding-top: 46px;
+
+    color: #0B113F;
+
+    font-family: 'Untitled Serif';
+    font-size: 34px; /* SKETCH */
+    letter-spacing: 0.34px;
+    font-weight: normal;
+    font-style: normal;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    text-align: center;
+}
+
+.onepager-slide-body{    
+    margin: auto;
+    padding-top: 16px;
+
+    width: 740px;
+
+    color: #0B113F;
+
+    font-family: 'Untitled Sans';
+    font-size: 17px; /* SKETCH */
+    line-height: 1.95; /* SKETCH */
+    letter-spacing: 0.1px;
+    font-weight: normal;
+    font-style: normal;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    text-align: left;
+}
+
+.onepager-videoContainer{
+    margin: auto; /* Format: y, x; */
+    margin-top: 40px;
+    padding: 0px;
+    max-width:720px;
+
+    position: relative;
+    bottom: -5px;
+
+     text-align: center;
+}
+
+.onepager-videoContainer video{
+    margin: auto;
+    max-width:720px;
+    
+}
+
+.onepager-videoContainer img{
+    margin: auto;
+    max-width:580px;
+
+    display: inline-block;
+
+    
+}
+
+.onepager-footer{
+    margin: auto;
+    margin-top: 138px;
+    margin-bottom: 200px;
+
+    color: #0B113F;
+
+    font-family: 'Sharp Grotesk';
+    font-size: 90px; /* SKETCH */
+    letter-spacing: 0.56px;
+    line-height: 1.2; /* SKETCH */
+    font-weight: normal;
+    font-style: normal;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    text-align: center;
+}
+
+.onepager-footer-contact{
+    color: #6F7289;
+}
+
+.onepager-button{
+    margin: auto;
+    margin-top: 22px; /* Around the button */
+
+    padding: 14px 0px; /* Around the text */
+    border-radius: 1600px;
+
+    width: 260px;
+
+    background-color: #3577F6;
+
+    color: white; /* THIS IS THE TEXT COLOR */
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Untitled Sans';
+    font-size: 17px;
+    letter-spacing: -0.1px;
+    line-height: 1.94; /* SKETCH */
+    font-weight: normal;
+    font-style: normal;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+
+    display: block;
+
+    cursor: pointer; 
+}
+
+/*          SECTION ----- Snap Animations: Night;        */
+
+.animate-night-bkg{
+    animation-name: animateToNight-bkg;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
+    animation-fill-mode: forwards;
+}
+@keyframes animateToNight-bkg {
+  to {background-color: #0B113F}
+}
+
+.animate-night-header{
+    animation-name: animateToNight-header;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
+    animation-fill-mode: forwards;
+}
+@keyframes animateToNight-header {
+  to {color: white;}
+}
+
+.animate-night-subheader{
+    animation-name: animateToNight-subheader;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
+    animation-fill-mode: forwards;
+}
+@keyframes animateToNight-subheader {
+  to {color: #464B6E;}
+}
+
+.animate-night-slideNumber{
+    animation-name: animateToNight-slideNumber;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
+    animation-fill-mode: forwards;
+}
+@keyframes animateToNight-slideNumber {
+  to {color: #464B6E;}
+}
+
+.animate-night-card{
+    animation-name: animateToNight-card;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
+    animation-fill-mode: forwards;
+}
+@keyframes animateToNight-card{
+  to {background-color: #000422;}
+}
+
+.animate-night-textTitle{
+    animation-name: animateToNight-textTitle;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
+    animation-fill-mode: forwards;
+}
+@keyframes animateToNight-textTitle {
+  to {color: white;}
+}
+
+.animate-night-textBody{
+    animation-name: animateToNight-textBody;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
+    animation-fill-mode: forwards;
+}
+@keyframes animateToNight-textBody {
+  to {color: white;}
+}
+
+.animate-night-footer{
+    animation-name: animateToNight-footer;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
+    animation-fill-mode: forwards;
+}
+@keyframes animateToNight-footer {
+  to {color: white;}
+}
+
+.animate-night-footerContact{
+    animation-name: animateToNight-footerContact;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
+    animation-fill-mode: forwards;
+}
+@keyframes animateToNight-footerContact {
+  to {color: #6F7289;}
+}
+
+/*          SECTION ----- Snap Animations: Day;        */
+
+.animate-day-bkg{
+    animation-name: animateToDay-bkg;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
+    animation-fill-mode: forwards;
+}
+@keyframes animateToDay-bkg {
+  from {background-color: #0B113F}
+  to {background-color: #E8EBED}
+}
+
+.animate-day-header{
+    animation-name: animateToDay-header;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
+    animation-fill-mode: forwards;
+}
+@keyframes animateToDay-header {
+  from {color: white;}
+  to {color: #0B113F;}
+}
+
+.animate-day-subheader{
+    animation-name: animateToDay-subheader;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
+    animation-fill-mode: forwards;
+}
+@keyframes animateToDay-subheader {
+  from {color: #464B6E;}
+  to {color: #C6CAD2;}
+}
+
+.animate-day-slideNumber{
+    animation-name: animateToDay-slideNumber;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
+    animation-fill-mode: forwards;
+}
+@keyframes animateToDay-slideNumber {
+  from {color: #464B6E;}
+  to {color: #C6CAD2;}
+}
+
+.animate-day-card{
+    animation-name: animateToDay-card;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
+    animation-fill-mode: forwards;
+}
+@keyframes animateToDay-card{
+  from {background-color: #000422;}
+  to {background-color: white;}
+}
+
+.animate-day-textTitle{
+    animation-name: animateToDay-textTitle;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
+    animation-fill-mode: forwards;
+}
+@keyframes animateToDay-textTitle {
+  from {color: white;}
+  to {color: #0B113F;}
+}
+
+.animate-day-textBody{
+    animation-name: animateToDay-textBody;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
+    animation-fill-mode: forwards;
+}
+@keyframes animateToDay-textBody {
+  from {color: white;}
+  to {color: #0B113F;}
+}
+
+.animate-day-footer{
+    animation-name: animateToDay-footer;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
+    animation-fill-mode: forwards;
+}
+@keyframes animateToDay-footer {
+  from {color: white;}
+  to {color: #0B113F;}
+}
+
+.animate-day-footerContact{
+    animation-name: animateToDay-footerContact;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
+    animation-fill-mode: forwards;
+}
+@keyframes animateToDay-footerContact {
+  from {color: #6F7289;}
+  to {color: #6F7289;}
+}
+
+/*          SECTION ----- Snap Animations: Snap;        */
+
+.animate-snap-bkg{
+    animation-name: animateToSnap-bkg;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
+    animation-fill-mode: forwards;
+}
+@keyframes animateToSnap-bkg {
+  from {background-color: #E8EBED}
+  to {background-color: #FFFC00}
+}
+
+.animate-snap-header{
+    animation-name: animateToSnap-header;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
+    animation-fill-mode: forwards;
+}
+@keyframes animateToSnap-header {
+  from {color: #0B113F;}
+  to {color: black;}
+}
+
+.animate-snap-subheader{
+    animation-name: animateToSnap-subheader;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
+    animation-fill-mode: forwards;
+}
+@keyframes animateToSnap-subheader {
+    from {color: #C6CAD2;}
+    to {color: black;}
+}
+
+.animate-snap-slideNumber{
+    animation-name: animateToSnap-slideNumber;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
+    animation-fill-mode: forwards;
+}
+@keyframes animateToSnap-slideNumber {
+  from {color: #C6CAD2;}
+  to {color: black;}
+}
+
+.animate-snap-textTitle{
+    animation-name: animateToSnap-textTitle;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
+    animation-fill-mode: forwards;
+}
+@keyframes animateToSnap-textTitle {
+  from {color: #0B113F;}
+  to {color: black;}
+}
+
+.animate-snap-textBody{
+    animation-name: animateToSnap-textBody;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
+    animation-fill-mode: forwards;
+}
+@keyframes animateToSnap-textBody {
+  from {color: #0B113F;}
+    to {color: black;}
+}
+
+.animate-snap-footer{
+    animation-name: animateToSnap-footer;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
+    animation-fill-mode: forwards;
+}
+@keyframes animateToSnap-footer {
+  from {color: #0B113F;}
+    to {color: black;}
+}
+
+.animate-snap-footerContact{
+    animation-name: animateToSnap-footerContact;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
+    animation-fill-mode: forwards;
+}
+@keyframes animateToSnap-footerContact {
+  from {color: #6F7289;}
+    to {color: black;}
+}
+
+/*          SECTION ----- Snap Animations: Spot;        */
+
+.animate-spot-bkg{
+    animation-name: animateToSpot-bkg;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
+    animation-fill-mode: forwards;
+}
+@keyframes animateToSpot-bkg {
+  from {background-color: #E8EBED}
+  to {background-color: #1DB954}
 }
 
