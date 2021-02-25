@@ -871,6 +871,10 @@ video{
     cursor: pointer; 
 }
 
+.onepager-button a{
+    text-decoration: none;
+}
+
 /*          SECTION ----- Snap Animations: Night;        */
 
 .animate-night-bkg{
