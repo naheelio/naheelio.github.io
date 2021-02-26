@@ -814,11 +814,11 @@ video{
 
 .onepager-videoContainer img{
     margin: auto;
-    max-width:580px;
+    max-width:500px;
 
     display: inline-block;
 
-    
+    margin-top: 60px;
 }
 
 .onepager-footer{
