@@ -1171,3 +1171,406 @@ video{
   to {background-color: #1DB954}
 }
 
+
+
+
+
+/* 
+
+
+
+SECTION ----- APPLE     
+
+
+
+   */
+
+.black{
+    background-color: black;
+}
+
+/*          SECTION ----- Apple:Navigation        */
+
+.navigator{
+    position: fixed;
+    right: 54px;
+    top: 55px;
+
+    width: 129px;
+    height: 62px;
+
+    cursor: pointer;
+}
+
+.navigator img:hover{
+    filter: brightness(70%);
+}
+
+/*          SECTION ----- Apple:Bio        */
+
+.section-bio{
+    height: 100vh;
+    line-height: 100vh;
+    text-align: center;
+}
+
+.bio-text{
+    display: inline-block;
+
+    font-family: 'Mabry Pro';
+    font-size: 16px; /* SKETCH */
+    line-height: 27.2px;
+    font-weight: normal;
+    font-style: normal;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+
+    color: white;
+}
+
+.bio-text-underline{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bio-emoji-1{
+    display: inline-block;
+    text-align: center;
+    width: 26px;
+    font-size: 16px; /* SKETCH */
+}
+
+.bio-emoji-1::after{
+    content:"🧑🏽‍💻";
+}
+
+.bio-emoji-2{
+    display: inline-block;
+    text-align: center;
+    width: 26px;
+    font-size: 16px; /* SKETCH */
+}
+
+.bio-emoji-2::after{
+    content:"";
+    animation: cycleEmojis 1s linear infinite alternate;
+}
+
+
+@keyframes cycleEmojis {
+  0% {
+    content: "📐";
+  }
+  25% {
+    content: "🕺";
+  }
+  50% {
+    content: "🎨";
+  }
+  75% {
+    content: "📹";
+  }
+  100% {
+    content: "🔮";
+  }
+}
+
+.bio-emoji-3{
+    display: inline-block;
+    text-align: center;
+    width: 26px;
+    font-size: 16px; /* SKETCH */
+}
+
+.bio-emoji-3::after{
+    content:"🗽";
+}
+
+/*          SECTION ----- Apple:Video        */
+
+
+
+.section-video{
+
+    height: 100vh;
+    text-align: center;
+    position: relative;
+
+    margin-bottom: 460px;
+}
+
+.section-video-content{
+    
+    position:absolute;
+    display: inline-block;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+    text-align: center;
+}
+
+.section-video-content video{
+    width: 76vw;
+    height: auto;
+    
+    background: green;
+    animation: none;
+
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.video-caption{
+    padding-bottom: 20px;
+    width: 800px;
+    display: inline-block;
+
+    font-family: 'Mabry Pro';
+    font-size: 17px; /* SKETCH */
+    line-height: 27.2px;
+    font-weight: normal;
+    font-style: normal;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+
+    color: white;
+}
+
+#rapMedia{
+
+}
+
+@media only screen and (max-width: 740px) {
+    .video-caption{
+        width: 400px;
+    }
+    #rapMedia{
+        width:500px;
+    }
+}
+
+
+
+/*          SECTION ----- Apple:Case studies        */
+
+.section-case{
+
+    height: 100vh;
+
+    text-align: center;
+    position: relative;
+
+    margin-bottom: 460px;
+}
+
+.section-case-content{
+    
+    position:absolute;
+    display: inline-block;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+    text-align: center;
+
+}
+
+.case-caption{
+    padding-bottom: 42px;
+    width: 800px;
+    display: inline-block;
+
+
+    font-family: 'Mabry Pro';
+    font-size: 16px; /* SKETCH */
+    line-height: 27.2px;
+    font-weight: normal;
+    font-style: normal;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+
+    color: white;
+}
+
+.case-split{
+    width: 1200px;
+
+    font-family: 'Untitled Sans';
+    font-size: 12.8px; /* SKETCH */
+    line-height: 16px;
+    font-weight: normal;
+    font-style: normal;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+
+    color: white;
+}
+
+.case-split img{
+    width: 408px;
+    height: 504px;
+    opacity: 1;
+}
+
+.imageWrapper{
+    background-color: none;
+    padding: 0;
+    margin: 0;
+}
+
+/*
+.imageWrapper:hover{
+    animation: shimmer 1s linear infinite alternate;
+}
+
+
+@keyframes shimmer {
+  0% {
+    background-color: white;
+  }
+  100% {
+    background-color: grey;
+  }
+}
+*/
+
+.case-description{
+    margin-top: 4px;
+}
+
+.timeline{
+    font-family: 'Untitled Sans';
+    font-size: 11.2px; /* SKETCH */
+    color: #9A9A9A;
+    font-style: italic;
+}
+
+.case-split-column1{
+    max-width: 600px;
+    display: inline-block;
+    margin-right: 68px;
+    text-align: left;
+    transition: .25s;
+    cursor: not-allowed;
+}
+
+/*
+.case-split-column1:hover{
+    transform: scale(1.01, 1.01);
+    transition-duration: .25s;
+    transition-timing-function: cubic-bezier(0, 0.55, 0.45, 1);
+}
+*/
+
+.case-split-column2{
+    max-width: 600px;
+    display: inline-block;
+    margin-left: 68px;
+    text-align: left;
+
+    transition: .25s;
+
+    cursor: not-allowed;
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+    .section-case{
+        height: 1460px;
+    }
+
+    .case-caption{
+        width:780px;
+    }
+
+    .case-split{
+        width: 800px;
+    }
+
+    .case-split-column1{
+        max-width: 600px;
+        margin-right: 0px;
+        margin-bottom: 100px;
+    }
+
+    .case-split-column2{
+        max-width: 600px;
+        margin-left: 0px;
+        
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .navigator{
+        right: 18px;
+        top: 10px;
+
+        width: 129px;
+        height: 62px;
+    }
+
+}
+
+@media only screen and (max-width: 810px) {
+
+    .section-case{
+        height: 1460px;
+    }
+
+    .case-split{
+        width: 600px;
+    }
+
+    .case-caption{
+        width:600px;
+    }
+
+    .navigator{
+        right: 18px;
+        top: 10px;
+
+        width: 129px;
+        height: 62px;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+
+    .section-case{
+        height: 1500px;
+    }
+
+    .case-split{
+        width: 500px;
+    }
+
+    .case-caption{
+        width:480px;
+    }
+}
+
+/*          SECTION ----- Email        */
+
+.section-email{
+    height: 100vh;
+    line-height: 100vh;
+    text-align: center;
+
+}
+
+.email-text{
+    display: inline-block;
+
+    font-family: 'Mabry Pro';
+    font-size: 16px; /* SKETCH */
+    line-height: 27.2px;
+    font-weight: normal;
+    font-style: normal;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+
+    color: white;
+}
+
+
+
