@@ -101,7 +101,7 @@ function activateDeactivate() {
   if(currentScroll >= contactFromTop){
     console.log("no next");
     $("#next-arrow").attr("src","img/arrow-next-disabled.svg");
-  } else if(currentScroll >= workFromTop){
+  } else if(currentScroll >= bioFromTop+10){
     console.log("all active");
     $("#next-arrow").attr("src","img/arrow-next-active.svg");
     $("#prev-arrow").attr("src","img/arrow-prev-active.svg");
